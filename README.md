@@ -1,5 +1,5 @@
 <h4 align="center">Hackernews backend</h4>
-<p align="center">Hackernews backend built with TypeScript, Apollo Server, Nexus and Prisma</p>
+<p align="center">GraphQL server built with TypeScript, Apollo Server, Nexus, Prisma and PostgreSQL</p>
 <hr />
 
 <div align="center">
@@ -16,6 +16,24 @@
 
 </div>
 <hr />
+
+#### Features
+ - authentication(login, sign up)
+ - fetch links
+ - create links
+ - filtering
+ - pagination
+
+
+#### Notes
+ - In order to run this project locally you must have PostgreSQL 
+installed on your machine or you can configure Prisma to use another database by yourself. To use another database check [prisma database connector docs](https://www.prisma.io/docs/concepts/database-connectors)
+ - you must create ***.env*** file which contains environment variables for the project in the project root directory and provide ***APP_SECRET***, ***DATABASE_URL***. For example:
+
+		 DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA"
+		 APP_SECRET="test-secret-string"
+
+
 
 #### Contributing to this project
 Feel free to contribute to this project

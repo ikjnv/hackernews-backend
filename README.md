@@ -2,6 +2,8 @@
 <p align="center">Hackernews backend built with TypeScript, Apollo Server, Nexus and Prisma</p>
 <hr />
 
+<div align="center">
+
 [![Node](https://img.shields.io/badge/nodejs-%2014.8.2-brightgreen)](https://nodejs.org/dist/v14.18.2/docs/api/)
 [![Npm package version](https://badgen.net/npm/v/npm/6.14)](https://www.npmjs.com/package/npm/v/6.14.15)
 [![Prisma Client](https://shields.io/badge/%40prisma%2Fclient-3.7.0-brightgreen)](https://www.prisma.io/docs/concepts/components/prisma-client)
@@ -12,6 +14,7 @@
 [![Json Web Token](https://shields.io/badge/jsonwebtoken-8.5.1-brightgreen)](https://github.com/auth0/node-jsonwebtoken#readme)
 [![Nexus](https://shields.io/badge/nexus-1.1.0-brightgreen)](https://nexusjs.org/)
 
+</div>
 <hr />
 
 #### Contributing to this project
